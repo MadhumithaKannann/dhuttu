@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import Header from "./header";
+import Content from "./content";
+import Footer from "./footer";
 import './App.css';
 
 function App() {
+  // function handleNameChange(){
+  //   const names =["earn","grow","give"]
+  //   const int = Math.floor(Math.random()*3);
+  //   return names[int]
+  // }
   return (
+    // <div >
+    //  Subscribe to dhuttu
+    //  <p>lets {handleNameChange()} money</p>
+    // </div>
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header/>
+    <Content/>
+    <Footer/>
     </div>
   );
 }
